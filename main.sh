@@ -1,4 +1,7 @@
-value1=2  
-value2=3
-value3=`expr $value1  $value2`
-echo $value3 
+echo "1 - $1"
+echo "2 - $2"
+echo "3 - $3"
+
+echo "4 - Script Name - $0"
+
+echo "$*"
