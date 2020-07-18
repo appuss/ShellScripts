@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "What is your Name?"
-read name
-echo "Hi, $name"
+read var1
+echo "Hi, $var1"

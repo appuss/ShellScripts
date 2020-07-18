@@ -1,7 +1,8 @@
-echo "1 - $1"
-echo "2 - $2"
-echo "3 - $3"
 
-echo "4 - Script Name - $0"
-
-echo "$*"
+#!/bin/sh
+echo "1st #"
+read num1
+echo "2nd #"
+read num2
+val=`expr $num1 + $num2`
+echo "$val"
