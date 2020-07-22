@@ -1,4 +1,4 @@
-cp#!/bin/sh
+#!/bin/sh
 echo "Enter first No"
 read num1
 echo "Enter the 2nd No"

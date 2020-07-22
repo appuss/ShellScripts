@@ -2,7 +2,7 @@
 echo "enter file name"
 read filename
 
-if [ -r "$filename" ] && [ -w "$filename" ] ; then
+if [ -r "$filename" ] || [ -w "$filename" ] ; then
   echo "file is readable and writable"
 else 
   echo "file is not readable and not writable"

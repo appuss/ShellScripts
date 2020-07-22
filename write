@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "enter file name"
+read filename
+
+if [ -w $filename  ] ; then
+  echo "file is writable"
+else
+  echo "file is not writable"
+  fi
