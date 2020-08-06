@@ -1,5 +1,5 @@
 #!/bin/sh
-tr -d '\015' < main.sh > main1.sh
+tr -d '\016' < main.sh > main1.sh
 a=0
 read num1
 read exp
